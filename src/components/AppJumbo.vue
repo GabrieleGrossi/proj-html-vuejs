@@ -89,6 +89,7 @@ export default {
         height: 150px;
         justify-content: center;
         align-items: center;
+        margin-bottom: 4rem;
     }
     .btn-help{
         position: absolute;
