@@ -1,9 +1,6 @@
 <template>
     <header>
-        <section class="flex spaced">
-            <img src="../assets/images/construction_logo.png" alt="Avada Construction Logo">
-            <AppNavbar/>
-        </section>
+        <AppNavbar/>
     </header>
 </template>
 <script>
