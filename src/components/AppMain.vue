@@ -1,11 +1,20 @@
 <template>
     <div>
-        Io sono il main
+        <AppJumbo/>
     </div>
 </template>
 <script>
+import AppJumbo from './AppJumbo.vue';
 export default {
-    name: 'AppMain'
+    name: 'AppMain',
+    components:{
+        AppJumbo
+    },
+    data(){
+        return{
+
+        }
+    }
 }
 </script>
 <style lang="scss" scoped>

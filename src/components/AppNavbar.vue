@@ -50,7 +50,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-     @use '../styles/general.scss';
+     @use '../styles/general';
 nav{
     margin: 2rem 5rem;
 }
@@ -58,8 +58,11 @@ nav ul{
     display: flex;
     flex-direction: row;
 }
+.active{
+    color: #fed03d;
+}
 a{
-    padding: 1.5rem;
+    padding: 3.5rem 1.5rem;
     &.active,
     &:hover{
         color: #fed03d;
