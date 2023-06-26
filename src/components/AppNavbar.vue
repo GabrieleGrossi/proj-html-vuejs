@@ -57,6 +57,7 @@ nav{
     width: 100%;
     background-color: white;
     position: fixed;
+    z-index: 1;
 }
 nav ul{
     display: flex;
