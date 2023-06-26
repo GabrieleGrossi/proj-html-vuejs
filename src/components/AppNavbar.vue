@@ -52,7 +52,11 @@ export default {
 <style lang="scss" scoped>
      @use '../styles/general';
 nav{
-    margin: 2rem 5rem;
+    padding: 2rem 5rem;
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
 }
 nav ul{
     display: flex;

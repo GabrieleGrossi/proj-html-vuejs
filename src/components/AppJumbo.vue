@@ -15,10 +15,13 @@
             </button>
         </div>
     </div>
-    <div class="helper flex">
+    <div class="helper flex column">
         <h2>
             Do You Have A Construction Project We Can Help Whit?
         </h2>
+        <button class="btn-help">
+                GET A FREE QUOTE
+        </button>
     </div>
 </template>
 
@@ -36,6 +39,7 @@ export default {
     div.jumbo{
         background-image: url(../assets/images/home-slider-62528242.jpg);
         height: 570px;
+        padding-top: 130px;
     }
     .jumbo-info{
         margin: 0 auto;
@@ -79,10 +83,26 @@ export default {
         }
     }
     .helper{
+        position: relative;
         background-color: #fed03d;
         color: #333333;
         height: 150px;
         justify-content: center;
         align-items: center;
+    }
+    .btn-help{
+        position: absolute;
+        top: 125px;
+        margin: 0 auto;
+        background-color: #333333;
+        border: 1px solid white;
+        color: white;
+        padding: 1rem 2rem;
+        &:hover{
+            background-color: white;
+            color: #333333;
+            border: 1.5px solid #333333;
+            transition: all 0.5s;
+        }
     }
 </style>
