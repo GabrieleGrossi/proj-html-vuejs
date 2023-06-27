@@ -50,6 +50,70 @@
             </div>
         </div>
     </section>
+    <section>
+        <div class="carousel">
+            <h1>
+                QUI ANDRà IL CAROSELLO MALEDETTO
+            </h1>
+        </div>
+    </section>
+    <section>
+        <div class="w-85">
+            <h1>
+                Latest News
+            </h1>
+            <div class="separator"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iusto dolorem veritatis aut, nostrum minima asperiores veniam id voluptas obcaecati provident necessitatibus commodi perferendis. Recusandae cumque ratione provident aspernatur officia?</p>
+        </div>
+        <div class="w-90 flex">
+            <div class="card">
+                <img src="../assets/images/blog-post-134132600-400x241.jpg" alt="">
+                <h2>
+                    Redeveloping Florida's Remote Southern Coast
+                </h2>
+                <h5>
+                    December 7th, 2015
+                </h5>
+                <div class="separator"></div>
+                <p>
+                    Technology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed
+                </p>
+            </div>
+            <div class="card">
+                <img src="../assets/images/blog-post-92486644-400x241.jpg" alt="">
+                <h2>
+                    How We Manage Large Construction Projects
+                </h2>
+                <h5>
+                    December 7th, 2015
+                </h5>
+                <div class="separator"></div>
+                <p>
+                    Technology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed
+                </p>
+            </div>
+            <div class="card">
+                <img src="../assets/images/blog-post-332773904-400x241.jpg" alt="">
+                <h2>
+                    Future proofing a modern home
+                </h2>
+                <h5>
+                    December 6th, 2015
+                </h5>
+                <div class="separator"></div>
+                <p>
+                    Technology is Here to Stay Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus purus nisl, elementum vitae consequat at, tristique ut enim. Sed ut dignissim leo. Nullam sed metus id sapien faucibus rhoncus sed
+                </p>
+            </div>
+        </div>
+        <div class="flex m-4">
+            <div class="separator"></div>
+            <button>
+                VIEW ALL PROJECTS
+            </button>
+            <div class="separator"></div>
+        </div>
+    </section>
 </template>
 <script>
 export default {
@@ -117,5 +181,35 @@ export default {
     }
     .green{
         background-color: #84cb01;
+    }
+    .card{
+        width: calc((100% / 3) - 6.5rem);
+        text-align: left;
+        background-color: white;
+        margin: 0 2rem 0 5rem;
+        
+    }
+    .card img{
+        width: 100%;
+    }
+    .card h2,
+    h5,
+    p{
+        padding: 1rem 2rem;
+    }
+    .m-4{
+        padding: 4rem 0;
+    }
+    .m-4 .separator{
+        border-color: lightgrey;
+    }
+    button{
+        background-color: transparent;
+        border: 1px solid transparent;
+        padding: 1rem 5rem;
+        &:hover{
+            background-color: #fed03d;
+            transition: all 0.5s ease;
+        }
     }
 </style>
