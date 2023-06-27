@@ -2,16 +2,19 @@
     <div>
         <AppJumbo/>
         <AppBody/>
+        <AppMainSection/>
     </div>
 </template>
 <script>
 import AppJumbo from './AppJumbo.vue';
 import AppBody from './AppBody.vue';
+import AppMainSection from './AppMainSection.vue';
 export default {
     name: 'AppMain',
     components:{
         AppJumbo,
-        AppBody
+        AppBody,
+        AppMainSection
     },
     data(){
         return{

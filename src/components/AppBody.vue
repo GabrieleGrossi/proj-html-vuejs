@@ -2,7 +2,7 @@
     <section>
         <div class="w-85">
             <h2>
-                Specialist In Modern Construction
+                Specialists In Modern Construction
             </h2>
             <div class="separator">
 
@@ -78,7 +78,7 @@ export default {
     margin-bottom: 2rem;
    }
    .separator{
-    width: 35%;
+    width: 18%;
     border: 1px solid #fed03d;
     margin: 0 auto;
    }
