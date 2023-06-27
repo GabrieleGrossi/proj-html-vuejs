@@ -74,17 +74,5 @@ a{
         transition:all 0.5s ease-in-out;
     }
 }
-.get-quote{
-    background-color: #fed03d;
-    border: 1px solid #fed03d;
-    padding: 1rem;
-    height: 45px;
-    width: 160px;
-    align-self: center;
-    &:hover{
-        background-color: black;
-        color: white;
-        transition: all 0.5s ease-in-out;
-    }
-}
+
 </style>
