@@ -74,13 +74,9 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
+@use '../styles/general.scss';
    div.w-85 h2{
     margin-bottom: 2rem;
-   }
-   .separator{
-    width: 18%;
-    border: 1px solid #fed03d;
-    margin: 0 auto;
    }
    div.w-85 p{
     margin-top: 2rem;
@@ -97,16 +93,6 @@ export default {
     margin: 0 auto;
     border-radius: 15px;
     text-align: center;
-   }
-   .circle{
-    width: 75px;
-    height: 75px;
-    border-radius: 50%;
-    border: 1px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem auto;
    }
    div.circle i{
     font-size: xx-large;

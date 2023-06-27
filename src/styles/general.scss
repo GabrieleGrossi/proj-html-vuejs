@@ -32,3 +32,18 @@ li{
     padding: 0 5rem;
     text-align: center;
 }
+.separator{
+    width: 18%;
+    border: 1px solid #fed03d;
+    margin: 0 auto;
+}
+.circle{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+}
