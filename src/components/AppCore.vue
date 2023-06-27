@@ -201,7 +201,7 @@ export default {
         padding: 4rem 0;
     }
     .m-4 .separator{
-        border-color: lightgrey;
+        border-color: white;
     }
     button{
         background-color: transparent;
