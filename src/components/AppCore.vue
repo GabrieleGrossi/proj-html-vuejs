@@ -50,11 +50,13 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="img-bk">
         <div class="carousel">
             <h1>
                 QUI ANDRà IL CAROSELLO MALEDETTO
             </h1>
+            <AppCoreCarousel v-for="imgObj in imageList"
+                :userElement="imgObj"/>
         </div>
     </section>
     <section>
@@ -116,11 +118,26 @@
     </section>
 </template>
 <script>
+import AppCoreCarousel from './AppCoreCarousel.vue';
 export default {
     name: 'AppCore',
+    components:{
+        AppCoreCarousel
+    },
     data(){
         return{
-
+            imageList: [
+                {
+                    image: "home-testimonial-113165296.jpg",
+                    text: "No man but feels more of a man in the world if he have but a bit of ground that he can call his own. However small it is on the surface, it is four thousand miles deep; and that is a very handsome property",
+                    user: "HARRY SMITH • NEW HOME OWNER"
+                },
+                {
+                    image: 'home-testimonial-84268399.jpg',
+                    text: "Many novice real estate investors soon quit the profession and invest. When you invest in real estate, you often see a side of humanity that stocks, bonds, mutual funds, and saving money shelter you from.",
+                    user: "JOHN DOE • PROPERTY INVESTOR"
+                }
+            ],
         }
     }
 }
@@ -132,6 +149,13 @@ export default {
         margin: 0 auto;
         text-align: center;
         padding-top: 5rem;
+    }
+    .img-bk{
+        background-image: url(../assets/images/home-parallax-144609983.jpg);
+        height: 80vh;
+        background-size: cover;
+        background-position-y: center;
+        color: white;
     }
     h1{
         font-size: 2rem;
