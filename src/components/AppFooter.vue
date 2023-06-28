@@ -36,13 +36,13 @@
         </div>
     </section>
     <footer>
-        <div class="flex m-0">
+        <div class="flex">
             <div class="w-4">
                 <img src="../assets/images/footer-logo.png" alt="footer logo">
-                <p>
+                <p class="mt-0">
                     We are specialists in the construction of unique and exclusive properties. Our work inspires. We pride ourselves on delivering outstanding quality and design for leading clients across the world.
                 </p>
-                <button class="get-quote">
+                <button class="get-quote mt-0">
                     LEARN MORE
                 </button>
             </div>
@@ -58,7 +58,7 @@
                 <h1>
                     CONTACT US TODAY
                 </h1>
-                <div class="flex">
+                <div class="flex mt-0">
                     <i class="fa-solid fa-globe"></i>
                     <p>
                         Corporate Location <br>
@@ -66,7 +66,7 @@
                         London WC1 1BA
                     </p>
                 </div>
-                <div class="flex">
+                <div class="flex mt-0">
                     <i class="fa-solid fa-house-chimney"></i>
                     <p>
                         Residential Location <br>
@@ -74,25 +74,25 @@
                         Paddington RC7 9ZA
                     </p>
                 </div>
-                <div class="flex">
+                <div class="flex mt-0">
                     <i class="fa-solid fa-phone-flip"></i>
                     <p>
                         1.800.458.556 / 1.800.532.2112
                     </p>
                 </div>
-                <div class="flex">
+                <div class="flex mt-0">
                     <i class="fa-solid fa-phone-flip"></i>
                     <p>
                         info@your-domain.com
                     </p>
                 </div>
-                <div class="flex">
+                <div class="flex mt-0">
                     <i class="fa-regular fa-clock"></i>
                     <p>
                         Monday / Friday: 9:00 AM / 6:00 PM
                     </p>
                 </div>
-                <div class="flex">
+                <div class="flex mt-0">
                     <i class="fa-regular fa-clock"></i>
                     <p>
                         Saturday / Sunday: 9:00 AM / 12:00 PM
@@ -105,13 +105,16 @@
                 </h1>
             </div>
         </div>
-        <div class="flex spaced m-0 bkbl">
+        <div class="flex around m-0 bkbl">
             <div>
                 ©COPYRIGHT 2012 - 2023 | AVADA THEME BY THEMEFUSION | ALL RIGHTS RESERVED | POWERED BY WORDPRESS  
             </div>
-            <a>
-
-            </a>
+            <div class="flex">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
         </div>
     </footer>
 </template>
@@ -172,7 +175,8 @@ export default {
         margin-left: 0;
     }
     footer{
-        background-color: #333333;
+        background-color: #1f1f1f;
+        color:#8f8f8f;
     }
     footer h1{
        color: #fed03d;
@@ -186,5 +190,8 @@ export default {
     }
     .get-quote{
         width: 200px;
+    }
+    div.flex i{
+        margin-right: 1rem;
     }
 </style>

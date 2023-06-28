@@ -56,9 +56,9 @@
         </div>
     </section>
     <div class="w-85 mt-1">
-        <h2>
+        <h1>
             Explore Recent Work
-        </h2>
+        </h1>
         <div class="separator">
         </div>
         <p>
@@ -105,9 +105,8 @@ export default {
     }
     .flex{
         display: flex;
-        text-align: center;
         align-items: center;
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
     }
     .counter-box-container{
@@ -127,8 +126,11 @@ export default {
     p{
         margin: 2.5rem 0;
     }
-    h1{
+    .jumbo h1{
         font-size: 50px;
+    }
+    .w-85 div.separator{
+        margin-top: 2rem;
     }
     .img-card{
         height: 100%;
@@ -144,9 +146,10 @@ export default {
             transition: all 0.5s ease;
         }
     }
-    .separator{
+    div.m-4 div.separator{
         border: 1px solid lightgray;
         width: 25%;
+        margin-top:1rem;
     }
     .m-4{
         margin-top: 4rem;

@@ -171,7 +171,7 @@ export default {
         margin-bottom: 2rem;
     }
     div.w-90 div.separator{
-        width: 90%;
+        width: 20%;
         border-color: lightgrey;
     }
     .circle{
@@ -195,6 +195,7 @@ export default {
         width: 80%;
         margin: 0 auto;
         margin-top: 3rem;
+        padding-bottom: 3rem;
     }
     .water-green{
         background-color: #21a6b5;
