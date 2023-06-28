@@ -16,7 +16,9 @@ body{
     justify-content: space-between;
 }
 .around{
-    justify-content: space-around
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
 }
 .column{
     flex-direction: column;
