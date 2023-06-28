@@ -18,26 +18,26 @@
     </section>
     <section>
         <div class="flex back">
-            <div class="building w-50 m-0">
+            <div class="building w-85 m-0">
                 <h1>
                     BUILDING INSPIRING SPACES
                 </h1>
                 <div class="separator"></div>
-                <p>Vivamus Sed Consectetur Tellus Dolor Sit Amet, Consectetur Adipiscing Lorem Elit Sadip Ipsum Ets Ficilis Uns.</p>
+                <p class="mt-1">Vivamus Sed Consectetur Tellus Dolor Sit Amet, Consectetur Adipiscing Lorem Elit Sadip Ipsum Ets Ficilis Uns.</p>
             </div>
-            <div class="building w-50 m-0">
+            <div class="building w-85 m-0">
                 <button class="get-quote">
                     GET A FREE QUOTE
                 </button>
-                <h4>
+                <h4 class="mt-1">
                     Only takes a few seconds
                 </h4>
             </div>
         </div>
     </section>
     <footer>
-        <div class="flex">
-            <div>
+        <div class="flex m-0">
+            <div class="w-4">
                 <img src="../assets/images/footer-logo.png" alt="footer logo">
                 <p>
                     We are specialists in the construction of unique and exclusive properties. Our work inspires. We pride ourselves on delivering outstanding quality and design for leading clients across the world.
@@ -46,7 +46,7 @@
                     LEARN MORE
                 </button>
             </div>
-            <div class="twitter">
+            <div class="twitter w-4">
                 <h1>
                     LATEST TWEETS
                 </h1>
@@ -54,12 +54,52 @@
                     <img src="../assets/images/3a74ce3d0532b7773b174c45ca3bd05a_normal.png" alt="logo avada twitter">
                 </div>
             </div>
-            <div>
+            <div class="w-4">
                 <h1>
                     CONTACT US TODAY
                 </h1>
+                <div class="flex">
+                    <i class="fa-solid fa-globe"></i>
+                    <p>
+                        Corporate Location <br>
+                        1600 Amphitheatre Parkway <br>
+                        London WC1 1BA
+                    </p>
+                </div>
+                <div class="flex">
+                    <i class="fa-solid fa-house-chimney"></i>
+                    <p>
+                        Residential Location <br>
+                        9521 Broadsberry Avenue <br>
+                        Paddington RC7 9ZA
+                    </p>
+                </div>
+                <div class="flex">
+                    <i class="fa-solid fa-phone-flip"></i>
+                    <p>
+                        1.800.458.556 / 1.800.532.2112
+                    </p>
+                </div>
+                <div class="flex">
+                    <i class="fa-solid fa-phone-flip"></i>
+                    <p>
+                        info@your-domain.com
+                    </p>
+                </div>
+                <div class="flex">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>
+                        Monday / Friday: 9:00 AM / 6:00 PM
+                    </p>
+                </div>
+                <div class="flex">
+                    <i class="fa-regular fa-clock"></i>
+                    <p>
+                        Saturday / Sunday: 9:00 AM / 12:00 PM
+                    </p>
+                </div>
             </div>
-            <div>
+            <div class="w-4">
                 <h1>
                     OUR LOCATION
                 </h1>
@@ -143,5 +183,8 @@ export default {
     }
     .card img{
         width: 70%;
+    }
+    .get-quote{
+        width: 200px;
     }
 </style>

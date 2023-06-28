@@ -53,8 +53,9 @@
     <section class="img-bk">
         <div class="carousel">
             <h1>
-                QUI ANDRà IL CAROSELLO MALEDETTO
+                Our Home Owners Say
             </h1>
+            <div class="separator"></div>
             <AppCoreCarousel v-for="imgObj in imageList"
                 :userElement="imgObj"/>
         </div>
@@ -156,6 +157,7 @@ export default {
         background-size: cover;
         background-position-y: center;
         color: white;
+        padding-top: 5rem;
     }
     h1{
         font-size: 2rem;
