@@ -82,7 +82,7 @@
                         <p>
                             Quis autem vel eum iure reprederit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum.
                         </p>
-                        <button class="get-quote">GET QUOTE</button>
+                        <button class="get-quote">GET A QUOTE</button>
                     </div>
                 </div>
             </div>

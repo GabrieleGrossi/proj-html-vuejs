@@ -66,14 +66,50 @@
         </p>
     </div>
     <div class="flex">
-        <div class="img-card">
-            <img src="../assets/images/project2-featured-15013609-400x400.jpg" alt="">
+        <div class="container">
+            <div class="img-card">
+                <img src="../assets/images/project2-featured-15013609-400x400.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h4>
+                            Florida Healt Facility
+                        </h4>
+                        <h5>
+                            Commercial
+                        </h5>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="img-card">
-            <img src="../assets/images/project1-featured-294276386-400x400.jpg" alt="">
+        <div class="container">
+            <div class="img-card">
+                <img src="../assets/images/project1-featured-294276386-400x400.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h4>
+                            Maine Modernity
+                        </h4>
+                        <h5>
+                            Residential
+                        </h5>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="img-card">
-            <img src="../assets/images/project3-featured-189023420-400x400.jpg" alt="">
+        <div class="container">
+            <div class="img-card">
+                <img src="../assets/images/project3-featured-189023420-400x400.jpg" alt="">
+                <div class="overlay">
+                    <div class="text">
+                        <h4>
+                            Exclusive Urban Living
+                        </h4>
+                        <h5>
+                            Commercial
+                        </h5>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="flex m-4">
@@ -132,10 +168,40 @@ export default {
     .w-85 div.separator{
         margin-top: 2rem;
     }
+
+    .container{
+        position: relative;
+    }
+    .overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #fed03d;
+        
+    }
+    .container:hover .overlay {
+        opacity: 1;
+    }
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
     .img-card{
         height: 100%;
-        margin: 0 1rem;
-        
+        margin: 0 1rem;        
     }
     button{
         background-color: white;
