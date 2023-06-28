@@ -9,20 +9,23 @@
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, doloremque quaerat beatae repellat velit ex tenetur laborum, blanditiis enim accusamus magni expedita nesciunt ducimus accusantium quo, laudantium quisquam numquam ipsum.
             </p>
         </div>
-        <h1>
-            ALTRO CAROSELLO BRUTTISSIMO
-        </h1>
+        <div class="flex w-85 m-0">
+            <div class="card" v-for="imgObj in partners"
+                :partnersImg="imgObj">
+                <img :src="imgObj.image" alt="">
+            </div>
+        </div>
     </section>
     <section>
         <div class="flex back">
-            <div class="building m-0">
+            <div class="building w-50 m-0">
                 <h1>
                     BUILDING INSPIRING SPACES
                 </h1>
                 <div class="separator"></div>
                 <p>Vivamus Sed Consectetur Tellus Dolor Sit Amet, Consectetur Adipiscing Lorem Elit Sadip Ipsum Ets Ficilis Uns.</p>
             </div>
-            <div class="building m-0">
+            <div class="building w-50 m-0">
                 <button class="get-quote">
                     GET A FREE QUOTE
                 </button>
@@ -72,11 +75,38 @@
         </div>
     </footer>
 </template>
+
+
 <script>
+
 export default {
-    name: 'AppFooter'
+    name: 'AppFooter',
+    data(){
+        return{
+            partners: [
+                {
+                    image: 'home-logo1-219096700-320x202.png'
+                },
+                {
+                    image: 'home-logo2-219096700-320x202.png'
+                },
+                {
+                    image: 'home-logo9-219096700-320x202.png'
+                },
+                {
+                    image: 'home-logo10-219096700-320x202.png'
+                },
+                {
+                    image: 'home-logo11-219096700-320x202.png'
+                },
+            ]
+        }
+    }
 }
+
 </script>
+
+
 <style lang="scss" scoped>
 @use '../styles/general.scss';
     section{
@@ -106,5 +136,12 @@ export default {
     }
     footer h1{
        color: #fed03d;
+    }
+    .card{
+        width: calc(100% / 5);
+        margin: 5rem 0;
+    }
+    .card img{
+        width: 70%;
     }
 </style>
