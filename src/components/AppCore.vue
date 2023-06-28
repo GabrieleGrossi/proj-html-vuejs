@@ -145,7 +145,7 @@ export default {
         margin-bottom: 2rem;
     }
     div.w-90 div.separator{
-        width: 13%;
+        width: 90%;
         border-color: lightgrey;
     }
     .circle{

@@ -38,7 +38,7 @@ export default {
 <style lang="scss" scoped>
     div.jumbo{
         background-image: url(../assets/images/home-slider-62528242.jpg);
-        height: 710px;
+        height: 100vh;
         padding-top: 130px;
     }
     .jumbo-info{

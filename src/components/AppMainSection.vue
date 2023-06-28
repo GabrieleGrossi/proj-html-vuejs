@@ -4,9 +4,9 @@
             <div class="counter-box-container">
                 <div class="counter-box-info">
                     <i class="fa-solid fa-suitcase fa-2xl"></i>
-                    <h2>
+                    <h1>
                         3534
-                    </h2>
+                    </h1>
                 </div>
                 <div class="counter-box-content">
                     <h3>
@@ -17,9 +17,9 @@
             <div class="counter-box-container">
                 <div class="counter-box-info">
                     <i class="fa-regular fa-building fa-2xl"></i>
-                    <h2>
+                    <h1>
                         896
-                    </h2>
+                    </h1>
                 </div>
                 <div class="counter-box-content">
                     <h3>
@@ -30,9 +30,9 @@
             <div class="counter-box-container">
                 <div class="counter-box-info">
                     <i class="fa-solid fa-users fa-2xl"></i>
-                    <h2>
+                    <h1>
                         172
-                    </h2>
+                    </h1>
                 </div>
                 <div class="counter-box-content">
                     <h3>
@@ -43,9 +43,9 @@
             <div class="counter-box-container">
                 <div class="counter-box-info">
                     <i class="fa-solid fa-globe fa-2xl"></i>
-                    <h2>
+                    <h1>
                         19
-                    </h2>
+                    </h1>
                 </div>
                 <div class="counter-box-content">
                     <h3>
@@ -55,7 +55,7 @@
             </div>
         </div>
     </section>
-    <div class="w-85">
+    <div class="w-85 mt-1">
         <h2>
             Explore Recent Work
         </h2>
@@ -123,9 +123,12 @@ export default {
         color: white;
         margin-top: 1.5rem;
     }
-    .w-85 h2,
+    .w-85 h1,
     p{
         margin: 2.5rem 0;
+    }
+    h1{
+        font-size: 50px;
     }
     .img-card{
         height: 100%;
